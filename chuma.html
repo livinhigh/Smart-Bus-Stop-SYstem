@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/master.css">
+    <meta charset="utf-8">
+    <title>Display</title>
+  </head>
+  <body onload="AutoRefresh(15000);">
+    <script type="text/javascript">
+    function AutoRefresh( t ) {
+               setTimeout("location.reload(true);", t);
+            }
+
+    </script>
+    <marquee behavior="scroll" direction="left" scrollamount="15">
+      Kanmanike Bus Stop
+    </marquee>
+
+    <table>
+      <tr>
+        <th>BUS No.</th>
+        <th>ETA</th>
+      </tr>
+
+      <tr>
+        <td>211R</td>
+        <td>10 mins</td>
+      </tr>
+      <tr>
+        <td>135N</td>
+        <td>6 mins</td>
+      </tr>
+      <tr>
+        <td>565N</td>
+        <td>6 mins</td>
+      </tr>
+      <tr>
+        <td>585N</td>
+        <td>7 mins</td>
+      </tr>
+    </table>
+  </body>
+</html>
